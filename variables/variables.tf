@@ -52,3 +52,11 @@ variable "egress_dsg" {
    cidr_blocks = [ "100.0.0/16", "200.0.0.0/16" ]
   }
 }
+
+variable "aws_access_key" {
+  
+}
+
+variable "aws_secret_key" {
+  
+}
