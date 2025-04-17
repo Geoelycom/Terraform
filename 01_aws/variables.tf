@@ -22,3 +22,10 @@ variable "my_public_ip" {
 variable "ssh_public_key" {
   
 }
+variable "aws_access_key" {
+  
+}
+
+variable "aws_secret_key" {
+  
+}

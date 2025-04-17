@@ -24,3 +24,6 @@ terraform.rc
 
 # Ignore plan output files
 *.tfplan
+
+# Ignore the web app template YAML file with sensitive information
+web-app-template.yaml
