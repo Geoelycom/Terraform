@@ -30,9 +30,13 @@ variable "subnet_cidr_blocks" {
   
 }
 variable "enable_dns" {
-  
+  type = bool
+  default = true
+  description = "Enable DNS support in the VPC"
 }
 
 variable "enable_dns_hostnames" {
-  
+  type = bool
+  default = true
+  description = "Enable DNS hostnames in the VPC"
 }

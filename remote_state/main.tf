@@ -12,6 +12,8 @@ provider "aws" {
   
 }
 
+data "aws_availability_zones" "available" {}
+
 data "aws_ami" "amazon_linux" {
   most_recent = true
 
@@ -56,7 +58,7 @@ resource "aws_vpc" "terraform_vpc" {
 resource "aws_subnet" "web" {
   vpc_id            = aws_vpc.terraform_vpc.id
   cidr_block        = var.subnet_cidr_blocks
-  availability_zone = element(data.aws_availability_zones.available.names, count.index)
+  availability_zone = data.aws_availability_zones.available.names[0]
   map_public_ip_on_launch = true
 
   tags = {
@@ -95,7 +97,7 @@ resource "aws_security_group" "ssh" {
   description = "Allow SSH inbound traffic"
   vpc_id      = aws_vpc.terraform_vpc.id
 
-  ingress = {
+  ingress {
     description = "SSH"
     from_port = 22
     to_port   = 22
