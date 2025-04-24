@@ -83,42 +83,39 @@ terraform destroy
 ## 🧠 Topics You’ll Learn
 Terraform core concepts: providers, resources, modules, state
 
-AWS provisioning (EC2, VPC, IAM, etc.)
+* AWS provisioning (EC2, VPC, IAM, etc.)
 
-Remote backends and state locking
+* Remote backends and state locking
 
-HCP Terraform and VCS automation
+* HCP Terraform and VCS automation
 
-Secrets and variable management
+* Secrets and variable management
 
-Terraform Cloud Workspaces
+* Terraform Cloud Workspaces
 
-Reusability with modules
+* Reusability with modules
 
 
 
 ## 🧭 Next Steps
 Once you complete the basics, you can:
 
-Try creating your own reusable modules
+* Try creating your own reusable modules
 
-Deploy a 3-tier web app using modules
+* Deploy a 3-tier web app using modules
 
-Integrate Terraform with CI/CD pipelines
+* Integrate Terraform with CI/CD pipelines
 
-Explore advanced features like for_each, dynamic, and count
+* Explore advanced features like for_each, dynamic, and count
 
 
+## 📚 Resources
 
-📚 Resources
-Terraform Docs
+* [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
+* [HCP Terraform](https://cloud.hashicorp.com/terraform)
+* [AWS Free Tier](https://aws.amazon.com/free/)
+* [Vault by HashiCorp](https://developer.hashicorp.com/vault)
+* [Learn Terraform - HashiCorp](https://developer.hashicorp.com/terraform/tutorials)
 
-HCP Terraform
-
-AWS Free Tier
-
-Vault by HashiCorp
-
-Learn Terraform - HashiCorp
 
 
