@@ -58,7 +58,7 @@ export AWS_SECRET_ACCESS_KEY="your-secret-key"
 🚀 Getting Started
 1. Fork or clone the repo:
 ```bash 
-git clone https://github.com/your-username/terraform-learning.git
+git clone https://github.com/Geoelycom/Terraform.git
 cd terraform-learning
 ```
 
